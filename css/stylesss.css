@@ -1,0 +1,77 @@
+.courses table{
+    width: 80%;
+    font-size: 1.2rem;
+    background-color: rgb(245, 245, 245);
+}
+th{
+    color: rgb(0, 0, 0);
+    padding-bottom: 0px;
+}
+tr{
+    border-bottom:0.1px rgb(247, 247, 247) solid;
+   padding-bottom: 15px;
+}
+td{
+    padding-bottom: 0px;
+}
+table #due td{
+    background-color: rgb(245, 170, 170);
+}
+
+.profiledes{
+    background-color: transparent;
+    width:80%;
+    margin-left: 100px;
+}
+.profiledes label {
+    text-align: center;
+    color: rgb(18, 18, 19);
+    font-size: 1.0rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+.profiledes input{
+    font-size: 1.1rem;
+    margin-left: 5px;
+    background-color: rgb(234, 243, 253);
+    margin-top: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    width: 45%;
+    border-radius: 5px;
+    padding: 4px;
+    border: rgb(234, 243, 253);
+
+    
+}
+table #prof {
+    width:100%;
+}
+.profiledes .heading1{
+    text-align: center;
+
+}
+.profiledes .heading1{
+    text-align: center;
+
+}
+.profiledes button{
+    border-radius: 5px;
+    background-color:rgb(143, 125, 255) ;
+    height: 2rem;
+    border: 0.1px;
+    float: center;
+    width: 50%;
+}
+.profiledes .error{
+        margin-bottom: 20px;
+        background: rgb(245, 170, 170);
+        color: rgb(7, 7, 7);
+        padding: 10px 10px 10px 10px;
+        width: 50%;
+        height: 3.rem;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 5px;
+}

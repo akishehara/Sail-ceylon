@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+body{
+   background-color: rgb(245, 245, 245);
+   width: 100%;
+   height: 100%;
+}
+
+.wrapper{
+  width:100%;
+  display: flex;
+  position: relative;
+}
+.wrapper .progressP{
+  width: 100%;
+  height: 6rem;
+  background: rgb(5, 5, 5);
+  position: fixed;
+  text-align: center;
+  margin-bottom: 20px;
+  display: felx;
+}
+.wrapper .progressP .profile-pic{
+  
+  flex: 20%;
+  margin: auto;
+  margin-right: 2px;
+  margin-top: 14px;
+  display: inline;
+
+}
+.wrapper .progressP .name{
+  
+  flex: 10%;
+  margin: auto;
+  margin-right: 2px;
+  display: inline;
+  float: right;
+  display: flex;
+  flex-direction: row;
+
+}
+.wrapper .progressP .name .description .head{
+  color:white;
+  font-weight: lighter;
+  text-align: right;
+  margin: 20px;
+}
+.wrapper .progressP .profile-pic i{
+ font-size: 60px;
+ color: rgb(253, 253, 253);
+ font-weight: lighter;
+  
+}
+
+.wrapper .sidebar{
+  width: 15%;
+  height: 100%;
+  background: rgb(2, 2, 2);
+  color: #f1eaea;
+  padding: 0px 0px;
+  position: fixed; 
+}
+
+.wrapper .sidebar h5{
+  color: #f5efef;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.wrapper .sidebar ul{
+  margin-top: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #3f3d3d;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #a39f9f;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color:  #aca8a8;
+  text-decoration: none;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+  
+
+}
+.wrapper .sidebar ul li h5{
+  display: inline;
+  font-weight: lighter;
+  text-decoration: none;
+  font-size: 1.0rem;
+}
+
+.wrapper .sidebar ul li .lo{
+  display: inline;
+  
+
+}
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #727070;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.main_content{
+  width:85%;
+  margin-left: 250px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #ffffff;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+.profile{
+  margin-top: 20px;
+}
+.profile h2{
+      text-align: center;
+      color: #3f3d3d;
+}
+.profile i{
+  color:#3f3d3d;
+  font-size: 100px;
+}
+.profile .profpic{
+  margin: auto;
+  float: center;
+  align-self: center;
+}
+
+ 
+ .wrapper .progress{
+   display: inline-block;
+   background-color: rgba(233, 240, 252, 0.979);
+   position: fixed;
+   right: 0;
+   width: 15%;
+   height: 100vh;
+ }
+ .logo{
+   margin: auto;
+   margin-left: 0;
+ }
+ .sidebar.logo img{
+   max-width: 40px;
+   margin:auto;
+   margin-left: 0;
+ }
+ .logo{
+   margin:auto;
+ }
+
+ .logo img {
+    width: 20%;
+    float: center;
+    margin-left: 15%;
+    margin-top: 20px;
+
+}
+.na{
+  margin-left:20px;
+}
+.logout{
+  color: rgb(250, 250, 250);
+  border: rgb(255, 254, 252) 2px solid;
+  padding: 5px;
+  margin: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  float: right;
+  height: 40px;
+}
+.logout a{
+  color: white;
+  font-weight: lighter;
+}
+
+.description{
+  flex:75%;
+}
+.logout{
+  flex:25%;
+}

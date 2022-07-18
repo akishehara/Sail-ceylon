@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Poppins', sans-serif;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+
+    min-height: 10vh;
+    width: 100%;
+    background-color:black ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav {
+
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+
+    width: 50px;
+    
+}
+
+.nav-links{
+
+        flex: 1;
+        text-align: right;
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+
+/*fonts*/
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+/*hover effect*/
+.nav-links ul li::after{
+
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #bfcec3;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+
+    width: 100%;
+}
+
+img {
+  border-radius: 0%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+</style>
+</head>
+<body>
+<section class = "header "> 
+        <nav>
+              <a href = "#"><img src="../s_images/sailing.png"></a>
+            <div class = "nav-links">
+                   <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="contact.php">CONTACT US</a></li>
+                    <li><a href="../OurTeam/Ourteam.html">OUR TEAM</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="new_pck.php">PACKAGES</a></li>
+                    <li><a href="indexw.php">LOGIN</a></li>
+                    <li><a href="reserv.php">RESERVATION</a></li>
+
+                   </ul> 
+
+            </div> 
+
+        </nav>
+		</section>
+<hr>
+<div class="about-section">
+
+
+
+
+  <h1>About Us</h1>
+ 
+</div>
+
+  <div class="column">
+    <div class="card">
+        <img src="../about_img/3.png" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2>WHY TRAVEL WITH SAILCEYLON,</h2>
+        <p class="title"> </p>
+        <p>We are locals and travelers ourselves. Our trips are based on our experiences.</p>
+		<p>We have our own guides, chauffeurs and vehicles</p>
+		<p>We provide exciting off-the-beaten and authentic local experiences.</p>
+		<p>We have strong partnerships with some of the best hospitality brands in Sri Lanka.</p>
+		<p>We facilitate a variety of nature, eco and adventure based activities in Sri Lanka with our own experienced guides and facilitators.</p>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <img src="../about_img/2.png" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2>Our Vision</h2>
+        <p class="title">  </p>
+        <p>Our vision is to contribute immensely to the development of the tourism industry in Sri Lanka.</p>
+        <p>                      </p>
+      
+      </div>
+    </div>
+  </div>
+  
+  <h2 style="text-align:center"></h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <img src="../about_img/1.jpg" class="center"  alt="John" width='220' height='150'>
+      <div class="container">
+        <h2>Our Mission</h2>
+        <p class="title"> </p>
+        <p>Our mission is to provide you with a safe sea voyage, experience and beautiful memories.</p>
+
+        <p>     </p>
+
+		
+		
+       
+       
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+       <img src="../about_img/6.png" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2>Sail Ceyoln.lk</h2>
+        <p class="title">CEO & Founder</p>
+        <p>The needs of modern man are multiple and varied, against this backdrop it was necessary to create a paradigm out of the ordinary, a virtual closer to our hearts as passionate destination explorers where we can let our hearts and souls run in tandem with nature, the greatest relaxant we could offer to a tourist, SailCeylon is born.</p>
+		<p>At SailCeylon, we have composed a passionate and dedicated team of Sri Lankan destination explorers and experts studying the characteristics, customs, habits and beliefs of the legacy of our ancient civilization and the wide sandy tropical beaches. Making new discoveries and itineraries unlike any other in Sri Lanka, exploring the best places to stay from point Pedro in the North to the Dondra head in the south and everything in between, small yet big enough to handle any scale of holiday itinerary in Sri Lanka. Our effort is to show you the beautiful places, seldom visited in Sri Lanka.</p>
+		<p>in our opinion great places to experience the genuine rustic Sri Lanka where you will meet the heirs of a legacy of a past handed down from generation to generation by word of mouth. All our chauffeur guides will be able to give adequate translations of these charming tales if so desired.</p>
+		<p>Acting as an independent destination expert, SailCeylon is able to organize and handle a wide range of incoming FIT or group tours from beach stays to any location within the paradise isle of Sri Lanka. Other leisure activities supported by a first-rate fleet of air-conditioned vehicles staffed by handpicked drivers of praiseworthy conduct.</p>
+
+        <p>Our destination experts will advise you what you need to take along and help you finalize your ideal Sri Lanka Tour itinerary whether it be a beach stay, or diving off the coast for lost wrecks, of Sri Lanka on your next furlough to Sri Lanka. Relish the ambiance of the miracle Island of Sri Lanka while Savoring the delights Sri Lankan cuisine has on offer, let us take care of all your other earthly requirements with tailor made itineraries, lodging facilities with friendly staff, best places to sleep under the stars to your heart's content.</p>
+        <p>Thank you!  </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <img src="../about_img/4.jpg" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2>License to carry on business as a travel agent</h2>
+        <p class="title"></p>
+        <p>  </p>
+        
+      
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="../about_img/5.jpg" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2>Certificate of registaion as a travel agent</h2>
+        <p class="title"></p>
+        <p>  </p>
+        
+       
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="card">
+      <img src="../about_img/7.jpg" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2> </h2>
+        <p class="title">Sri Lanka Tourism Awards </p>
+        <p>  </p>
+        
+       
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="../about_img/8.jpg" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2></h2>
+        <p class="title">SLIM-Nielsen Peoples Awards</p>
+        <p>  </p>
+        
+       
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="../about_img/9.jpg" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2></h2>
+        <p class="title">World Travel Awards</p>
+        <p>  </p>
+        
+       
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="../about_img/10.jpg" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2></h2>
+        <p class="title">Travel Awards</p>
+        <p>  </p>
+        
+       
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="card">
+      <img src="../about_img/11.jpg" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2></h2>
+        <p class="title">South Asia Travel Awards </p>
+        <p>  </p>
+        
+       
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="../about_img/12.jpg" class="center" alt="John" width='220' height='150'>
+      <div class="container">
+        <h2></h2>
+        <p class="title">SINGER sponsorship</p>
+        <p>  </p>
+        
+       
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+.profile .containerP{
+    background-color: white;
+    margin-bottom: 20px;
+    padding:30px;
+    border-collapse: collapse;
+}
+.profile .containerP table{
+    width: 100%;
+    
+    
+}
+table{
+    border-collapse:collapse ;
+}
+.profile .containerP table tr{
+    width: 100%;
+    border-bottom:0.1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    
+}
+tr#no {
+    border-bottom-color: white;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+.profile .containerP table th{
+    width: 30%;
+    text-align: left;
+    padding-left: 46px;
+    padding-right: 4px;
+    padding-bottom: 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    
+}
+#boder table {
+    border: 1px solid #ddd;
+}
+#boder table th {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    font-weight: bolder;
+}
+
+.profile .containerP table td {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    padding: 3px;
+}
+ #boder table td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.profile .containerP table td input{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    background-color: white;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid rgb(207, 207, 207);
+}
+.profile .containerP table td select{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    background-color: white;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid rgb(207, 207, 207);
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+.profile{
+    width:90%;
+    margin-left: 20px;
+}
+.profile .containerP table td{
+    padding-bottom: 0;
+}
+.profile label {
+    text-align: center;
+        color: rgb(18, 18, 19);
+        font-size: 1.0rem;
+        margin-bottom: 0;
+        font-weight: lighter;
+    }
+    .profile input{
+        font-size: 1.0rem;
+        font-weight: lighter;
+        margin-left: 5px;
+        background-color: rgb(234, 243, 253);
+        margin-top: 0px;
+        border-radius: 5px;
+        padding: 4px;
+        border: rgb(234, 243, 253);
+    
+        
+    }
+    .profile button {
+        width: 100%;
+        text-align: center;
+        color: rgb(18, 18, 19);
+        font-size: 1.0rem;
+        margin-bottom: 0;
+        font-weight: lighter;
+        border-color:white ;
+        box-shadow: none;
+
+        }
+    .profile .error{
+        margin-bottom: 20px;
+        background: rgb(245, 170, 170);
+        color: rgb(7, 7, 7);
+        padding: 10px 10px 10px 10px;
+        width: 95%;
+        height: 1.rem;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-bottom: 5px;
+        align-self: center;
+    }
+    .profile .error i{
+        width: 20px;
+    }
+    .profile .mainheading{
+        margin-left: 100px;
+    }
+    .profile .mainheading .heading{
+        margin-left: 100px;
+    }
+    .profile .success{
+        margin-bottom: 20px;
+        background: rgb(231, 253, 190);
+        color: rgb(7, 7, 7);
+        padding: 2px;
+        width: 95%;
+        height: 1.2rem;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 0.7rem;
+        padding-bottom: 5px;
+        align-self: center;
+    }

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*Global styles*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Source Sans Pro', sans-serif;
+    --secondary-font: 'Herr Von Muellerhoff', cursive;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #252525;
+    --secondary-font-color: #c59d5f;
+    --body-font-color: #515151;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color:  #313131;
+}
+.namedescript{
+    width: 100%;
+    justify-content: center;
+    margin:auto;
+    margin-left: 0%;
+    align-items: center;
+    display: flex;
+    display: flex;
+}
+.descript{
+    background-color:transparent;
+    width: 100%;
+    color: #313131;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    z-index: -1;
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.namedescript .descript .heading1{
+    font-weight: bolder;
+    color: rgb(10, 10, 10);
+    font-size: 1.4rem;
+    margin-left: 250px;
+
+}
+.image{
+    width: 30%;
+    margin:auto;
+    margin-left: 20px;
+}
+.namedescript .image img{
+    min-width: 340px;
+    max-width: 340px;
+    margin-right:-120px ;
+    z-index: 2;
+}
+.heading{
+    font-weight: bolder;
+    color:  #3f3d3d;
+    font-size: 1.4rem;
+    text-align: left;
+    padding-left: 40px;
+}
+.heading1{
+    font-weight: bolder;
+    color: #3f3d3d;
+    font-size: 1.4rem;
+    margin-left: 45px;
+    
+}
+hr{
+    border: 0.3px solid #aaaaaa;
+    background-color:#aaaaaa ;
+
+}
+.card .imgc img{
+    min-width: 100px;
+
+}
+.seperator{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.options{
+    margin: auto;
+    margin-top: 30px;
+    width:100%;
+    display: flex; 
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 100%;
+	margin: 2px;
+    min-height: 300px;
+    background-color:  rgb(255, 255, 255);
+    padding:2px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 0;
+
+}
+.para{
+    margin-bottom: 100px;
+}
+.card #cardbi{
+    margin-left: 20px;
+}
+.col-sm-6{
+    padding: 2px;
+}
+.row no-gutters{
+    margin-top:2px;
+}
+.col-md-4 #imgassi{
+    margin-top:10px;
+}
+.col-md-4 #imgcour{
+    margin-bottom:10px;
+}
+
+.card-title{
+    font-weight: bolder;
+    color: #3f3d3d;
+    
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.card-text{
+    margin-bottom: 0;
+    background-color: #bd0303;
+    min-width: 100%;
+    margin-bottom: 0;
+    align-self: flex-end;
+    max-height: 2rem;
+    text-align: right;
+}
+.card-text button{
+    background-color: #b64040;
+    border-color: #aaaaaa;
+    margin-right: 0;
+    
+}
+.col-md-8{
+    flex: 100%;
+}
+
+.progress.btnlogout{
+    background-color: rgb(155, 155, 243);
+    border-radius: 4px;
+    padding: 3px;
+}
+.card-group{
+    width:100%;
+    margin: auto;
+}
+.lo a{
+    font-weight: bolder;
+    background-color: rgb(201, 194, 248);
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 30px;
+  }
+  .logo{
+    margin: auto;
+    margin-left: 0;
+  }
+  .sidebar.logo img{
+    max-width: 40px;
+    margin:auto;
+    margin-left: 0;
+  }

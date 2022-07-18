@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+   
+<meta name=" viewport" content = "with = device - width, initial - scale = 1.0">
+<title> Sail Ceylon - Our Team </title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class = " header "> 
+        <nav>
+            <a href = "index.html"><img src="../images/sailing.png"></a>
+            <div class = "nav-links">
+                   <ul>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../pages/aboutUs.html">ABOUT US</a></li>
+                        <li><a href="../pages/contact.php">CONTACT US</a></li>
+                        <li><a href="Ourteam.html">OUR TEAM</a></li>
+                        <li><a href="../pages/Gallery.html">GALLERY</a></li>
+                        <li><a href="../pages/new_pck.php">PACKAGES</a></li>
+                        <li><a href="../pages/indexw.php">LOGIN</a></li>
+                        <li><a href="../pages/reserv.php">RESERVATION</a></li>
+
+                   </ul> 
+            </div> 
+
+        </nav>
+
+     
+        <h1 class = "txt"><center>Our Team</h1></center>
+    
+ </section>
+ <video autoplay loop muted>
+    <source src="images/Wave.mp4" type="video/mp4">
+ </video>
+ 
+<h2 class = "tm"><center>Meet Our Team</center></h2>
+ 
+
+<p class = "tml">As a guide owned and operated company, we know how important our guides are to the quality of our safaris. We pride ourselves on hiring the 
+most talented and experienced local guides in order to provide the best boat safaris and photo tours available.</p>
+
+
+ <p id = "pa"><center>We hope our teams are able to make your dreams come true.</center></p>
+
+ 
+ 
+<div class="image-container">
+     <div class="image" onclick="get_info(0);"><img src="images/1.jpg"/></div>
+	 <div class="image" onclick="get_info(1);"><img src="images/2.jpg"/></div>
+	 <div class="image" onclick="get_info(2);"><img src="images/3.jpg"/></div>
+	 <div class="image" onclick="get_info(3);"><img src="images/4.jpg"/></div>
+	 <div class="image" onclick="get_info(4);"><img src="images/5.jpg"/></div>
+	 <div class="image" onclick="get_info(5);"><img src="images/6.jpg"/></div>
+	 
+</div>
+<div class="info-container">
+    <img class="profile" id="profile" src="images/1.jpg"/> 
+	<div class="info">
+	         <h1 class="name" id="name" >Gabriella Martinez</h1>
+			 <h3 class="status" id="status">Tour Guide</h3>
+			 <p class="about" id="about">
+			              Gabriella Martinez is a good guide who have high school diploma 
+						  about tour guiding and has a huge knowledge & good experience 
+						  about tour guiding. </br>  </br>
+						
+		     </p>
+			
+			 </div>
+        </div>	
+     <script>
+          function get_info(i){
+               let profile=["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg","images/5.jpg","images/6.jpg"];
+               let name=["Gabriella Martinez","Lisa Watson","David Patel","Emma Goodwin","Richard Smith","John Parker"];
+               let status=["Tour Guide","Tour Guide","Tour Guide","Tour Guide","Tour Guide","Tour Guide"];
+               document.getElementById("profile").src = profile[i];
+               document.getElementById("name").innerHTML = name[i];
+               document.getElementById("status").innerHTML = status[i];
+			   document.getElementById("about").innerHTML = name[i] + " is a good guide who have high school diploma about tour guiding and has a huge knowledge & good experience about tour guiding.";	
+               }			   
+     </script>
+
+	 
+<div class="image-container2">
+     <div class="image" onclick="gett_info(0);"><img src="images/image1.jpg"/></div>
+	 <div class="image" onclick="gett_info(1);"><img src="images/image2.jpg"/></div>
+	 <div class="image" onclick="gett_info(2);"><img src="images/image3.jpg"/></div>
+	 <div class="image" onclick="gett_info(3);"><img src="images/image4.jpg"/></div>
+	 <div class="image" onclick="gett_info(4);"><img src="images/image5.jpg"/></div>
+	 <div class="image" onclick="gett_info(5);"><img src="images/image6.png"/></div>
+	 
+</div>
+	 <div class="info-container2">
+    <img class="profile" id="profile1" src="images/image1.jpg"/> 
+	<div class="info">
+	         <h1 class="name" id="name1" >Max George</h1>
+			 <h3 class="status" id="status1">Boat Driver</h3>
+			 <p class="about" id="about1">
+			              Max George is a good boat driver who has many 
+						  years of experience. He has driving SKI boats and has 
+						  lifeguard certificate.
+			 			  
+			 </p>
+			 </div>
+        </div>	
+	<script>
+          function gett_info(i){
+               let profile1=["images/image1.jpg","images/image2.jpg","images/image3.jpg","images/image4.jpg","images/image5.jpg","images/image6.png"];
+               let name1=["Max Goerge","Jacob Samuel","David Singh","James Hadrick","Tom Parker","Nathan Sykes"];
+               let status1=["Boat Driver","Boat Driver","Boat Driver","Boat Driver","Boat Driver","Boat Driver"];
+               document.getElementById("profile1").src = profile1[i];
+               document.getElementById("name1").innerHTML = name1[i];
+               document.getElementById("status1").innerHTML = status1[i];
+               document.getElementById("about1").innerHTML = name1[i] + " is a good boat driver who has many years of experience. He has driving SKI boats and has lifeguard certificate.";	
+               }			   
+     </script>
+	 
+ 	 <div class = "container">
+	 <a href = "Comments.php">
+      <button class = "btn1"> Write Comments about team</button>
+     </a>
+     </div>
+	 
+	 	 
+	 
+	 <div class="footer-container">
+    <div class="footer">
+        <div class="footer-heading footer-1">
+
+            <h2> About Us </h2>
+            <a href="">Blog</a>
+            <a href="">Our Team</a>
+            <a href="">About Us</a>
+            <a href="">Terms of Service</a>
+            
+        </div>
+
+        <div class="footer-heading footer-2">
+
+            <h2> Contact Us </h2>
+            <a href="">Jobs</a>
+            <a href="">Support Us</a>
+            <a href="">Contact</a>
+            
+
+        </div>
+
+        <div class="footer-heading footer-3">
+
+            <h2> Social Media </h2>
+            <a href="">Facebook</a>
+            <a href="">Instergram</a>
+            <a href="">Twitter</a>
+           
+        </div>
+
+
+    </div>
+
+</div>
+ 
+    
+
+</body>
+</html>
+
+
+  
+      
+  
+    
+   
+  
+ 

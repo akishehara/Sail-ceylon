@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+/*Global styles*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Poppins', sans-serif;
+    --secondary-font: 'Herr Von Muellerhoff', cursive;
+    --body-font: 'Cabin', sans-serif;
+    --main-font-color-dark: #f7f3f3;
+    --secondary-font-color:rgb(197, 197, 197);
+    --body-font-color: rgb(0, 0, 0);
+
+}
+.grab {cursor: -webkit-grab; cursor: grab;}
+body{
+    display:grid;
+    font-family: 'Poppins';
+    align-items: center;
+    background: white;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+   
+
+    
+}
+body{
+    display:100%;
+    display:grid;
+    background: var(--body-font-color);
+ 
+
+}
+.section1{
+    background:url("../images/images.jpg")no-repeat;
+    background-size: cover;
+    min-height: 55vh;
+    width: 100%;
+
+
+}
+.section2{
+    background-color:white ;
+}
+.section1 h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: lighter;
+    padding-top: 0px;
+    padding: 20px;
+    padding-bottom: 2px;
+    margin: auto;
+    margin-bottom:0px ;
+    margin-top: 120px;
+  }
+  .section1 h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: lighter;
+    padding: 20px;
+    padding-top: 2px;
+    margin: auto;
+    z-index: 1;
+  }
+
+
+.contact{
+    margin: auto;
+}
+.container{
+    display: flex;
+    margin: auto;
+    height: 75vh;
+    flex-wrap: wrap;
+    margin-bottom: 2.4rem;
+    margin-top:2.4rem;
+    width: 85%;
+
+}
+.locations{
+    flex:25%;
+    background-color: rgb(252, 246, 246);
+    height: 75vh;
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom:50px;
+    background-size: cover;
+    margin-left: 0%;
+    margin-right: 0px;
+    padding-top: 50px;
+}
+.locations h1{
+    color: black;
+}
+.contactInfo{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom:50px;
+    background-size: cover;
+    margin-left: 0%;
+    margin-right: 0px;
+    flex:25%;
+    background-color: black;
+    padding-top: 50px;
+    height: 75vh;  
+}
+.contactInfo h3{
+    font-weight: lighter;
+    border-bottom:white 2px solid ;
+    width: 70%;
+}
+.contactInfo p{
+    font-weight: lighter;
+}
+.contactIn{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom:50px;
+    background-size: cover;
+    margin-left: 0%;
+    margin-right: 0px;
+    flex:25%;
+    background-color: rgb(252, 246, 246);
+    padding-top: 50px;
+    border-top: 2px solid var(--main-font-color-dark);
+    height: 75vh;
+    
+    
+    
+}
+.contactMap{
+    flex: 25%;
+    background-color: white;
+    margin-left: 0;
+    height: 75vh;
+    
+}
+
+.icon ul{
+    padding: 0;
+    margin-top:20px;
+    text-align:center;
+}
+.icon ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+ .icon ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    margin:0 10px ;
+    background:rgb(48, 46, 46);
+    border-radius: 100%;
+    transition: 0.5s;
+    color: black;
+ }
+ .icon ul li i{
+     color: white;
+ }
+ 
+.icon ul li :hover{
+    color:slategrey;
+    transform: translateY(-20px);
+}
+.icon ul li a ::before{
+    font-size: 30px;
+    line-height: 30px;
+    position: absolute;
+    content: '';
+    top:10px;
+    left:10px;
+    right:10px;
+    bottom:10px;
+    border-radius: 100%;
+}
+  
+h1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-align:center;
+}
+.contactIn h1{
+    color: black;
+}
+
+
+.icone{
+    color: rgb(252, 252, 252);
+    /*text-align:center;*/
+}
+.text{
+    color: white;
+}
+
+.contactIn form{
+    width:100%;
+    height: auto;
+}
+.contactIn form button{
+    background-color:black ;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    height: 40px;
+}
+.contact-in-input{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 30px;
+    border:1px solid black;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 5px;
+    background: transparent;
+    color: black;
+    font-size: 1.0rem;
+    font-weight: lighter;
+    font-family: "poppins";
+
+}
+.locations input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 30px;
+    border:1px solid black;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 5px;
+    background: transparent;
+    color: black;
+    font-size: 0.8rem;
+    font-weight:normal;
+    font-family: "poppins";
+
+}
+.locations ul{
+    list-style: none;
+}
+.locations ul li button{
+
+    font-size: 1rem;
+    font-weight:normal;
+    font-family: "poppins";
+    background-color: rgb(252, 246, 246);
+    border:none; 
+
+}
+ button :hover{
+    background-color: rgb(218, 218, 218);
+
+}
+
+.contact-in-input::placeholder{
+    color: black;
+    
+}
+.input-type-textarea{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    border:1px solid black;
+    outline: none;
+    padding-left: 5px;
+    background: transparent;
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "poppins";
+
+}
+.input-type-textarea::placeholder{
+    color: black;
+    background: transparent;
+    
+}
+.contactMap iframe{
+    width: 100%;
+    height:100%;
+
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+
+@media only screen and (max-width: 950px) 
+{
+    .contactIn{
+        flex: 100%;
+    }
+    .contactInfo{
+        flex: 50%;
+    }
+    .contactMap{
+        flex: 50%;
+    }
+    .headline{
+        font-size: 2.5rem;
+    }
+    .txtbox{
+        max-width: 90%;
+    }
+    .sub-headline{
+        color: black;
+    }
+}
+@media only screen and (max-width: 1050px) 
+{
+    .contactIn{
+        flex: 100%;
+    }
+    .contactInfo{
+        flex: 50%;
+    }
+    .contactMap{
+        flex: 50%;
+    }
+}
+
+.container #con{
+    width: 50%;
+
+}
+
+.section4{
+    height: 30vh;
+    background-color: black;
+}
+.error{
+
+    text-align: center;
+    background-color: #bbbbbb;
+    border-radius: 20px;
+  }
+
